@@ -1,0 +1,9 @@
+# Build Files
+**/.next
+
+# Package Manager
+**/node_modules
+package-lock.json
+
+# IDE Settings
+**/.vscode

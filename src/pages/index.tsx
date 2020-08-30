@@ -1,1 +1,1 @@
-export { default } from "../views/Exercises";
+export { default } from '../views/Exercises';

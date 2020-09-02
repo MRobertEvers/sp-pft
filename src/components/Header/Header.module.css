@@ -1,37 +1,45 @@
 .nav {
-  position: sticky;
-  height: 40px;
-  border-bottom: 1px solid #eaeaea;
-  display: flex;
-  align-items: center;
-  background-color: #001329;
-  justify-content: space-evenly;
-  color: white;
+	position: sticky;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	background-color: #001329;
+	justify-content: space-evenly;
+	color: white;
 }
 
 .nav-container {
-  max-width: 1140px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+	max-width: 1140px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .link {
-  cursor: pointer;
-  padding: 8px;
+	cursor: pointer;
+	padding: 8px;
 }
 
 .link a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: 400;
+	text-decoration: none;
+	color: inherit;
+	font-weight: 400;
 }
 
 .link a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .link-active {
-  color: #eb0404;
-  text-shadow: 0px 0px 4px #ec3535;
+	color: #eb0404;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	z-index: 1;
+	border-radius: 50%;
 }
